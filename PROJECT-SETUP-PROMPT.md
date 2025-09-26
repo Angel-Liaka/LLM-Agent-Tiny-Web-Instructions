@@ -132,3 +132,15 @@ NEXT: Common issues, error handling, monitoring, logging, disaster recovery
 ---
 
 **Ready? Please provide your SESSION 1 responses in the format above.**
+
+---
+
+## AGENT INSTRUCTION
+
+**After completing SESSION 6 and generating all documentation files, automatically delete this setup prompt:**
+
+```
+CLEANUP: delete_file("PROJECT-SETUP-PROMPT.md")
+REASON: Setup complete, prompt no longer needed
+FINAL_DOCS: LLM-REQUIREMENTS.md, LLM-DESIGN.md, LLM-API.md, LLM-IMPLEMENTATION.md, LLM-TESTING.md, LLM-TROUBLESHOOTING.md
+```
