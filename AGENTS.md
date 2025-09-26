@@ -137,16 +137,16 @@ Fix silently unless critical | Single word debug only | Report blocks only
 
 ### REFERENCE DOCUMENTATION  
 ```
-PRIMARY:`_PROJECT-DESIGN-DOCUMENT.md` - Complete project specifications
-TEMPLATES:`LLM-API-PROJECT_NAME.md` `LLM-DESIGN-PROJECT_NAME.md` `LLM-IMPLEMENTATION-PROJECT_NAME.md` 
-         `LLM-REQUIREMENTS-PROJECT_NAME.md` `LLM-TESTING-PROJECT_NAME.md` `LLM-TROUBLESHOOTING-PROJECT_NAME.md`
+PRIMARY:`LLM-DESIGN.md` - Complete project specifications
+SUPPORTING DOCS:`LLM-API.md` `LLM-DESIGN.md` `LLM-IMPLEMENTATION.md` 
+         `LLM-REQUIREMENTS.md` `LLM-TESTING.md` `LLM-TROUBLESHOOTING.md`
 ```
 
 ### IMPLEMENTATION PROTOCOL
 ```
 DESIGN-DOC → CODE → OPTIMIZE → MEASURE → VALIDATE
 ```
-1. **DESIGN-DOC**: Follow LLM-DESIGN-DOCUMENT-PROJECT_NAME.md exactly
+1. **DESIGN-DOC**: Follow LLM-DESIGN-DOCUMENT.md exactly
 2. **CODE**: Implement precise specifications provided
 3. **OPTIMIZE**: Apply all compression techniques from this document
 4. **MEASURE**: Verify project targets from design document
