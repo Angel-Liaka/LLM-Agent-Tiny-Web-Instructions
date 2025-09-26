@@ -54,6 +54,11 @@ BATCH:parallel reads over sequential | SEARCH:semantic before grep for explorati
 EDIT:multi-edit over single when same file | SCOPE:targeted tools over broad when known
 ```
 
+### DEMO RULES
+```
+ASK before creating demos | NO emojis in demo code | PROMPT user for demo requirements first
+```
+
 ### EXCEPTIONS
 ```
 Security algorithms|known algorithms MAY exceed LN limits for proper functionality
@@ -109,6 +114,12 @@ deps→features→complexity→redundancy
 HTML→native→consolidate→compress
 ```
 1.Move JS→HTML/CSS 2.Replace libs→native APIs 3.Merge similar FNs 4.Apply syntax COMP
+
+### REFACTORING RULES
+```
+NO comments when refactoring|renaming | DON'T expand existing comments | CODE only,!documentation
+ASK about backward compatibility before breaking changes
+```
 
 ### VALIDATION (VERIFY)
 ```
